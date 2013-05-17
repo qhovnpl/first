@@ -1,0 +1,24 @@
+---------------------------------------------------------------
+1. Kompilacja i uruchomienie PowerStorage
+---------------------------------------------------------------
+
+1. Zainstaluj program scons (www.scons.org).
+2. Wejdź w konsoli do katalogu PowerStorage.
+3. Skompiluj kod przy użyciu scons wpisując:
+
+$ scons
+
+4. Po skompilowaniu uruchom serwer PowerStorage:
+
+$ ./server
+
+5. Serwer można zatrzymać wciskając Ctrl+C.
+
+---------------------------------------------------------------
+2. Testowanie serwera PowerStorage za pomocą klienta w Pythonie
+---------------------------------------------------------------
+
+1. Wejdź do katalogu PowerStorage/test-client/PowerStorage.
+2. Uruchom klienta, np:
+
+$ ./client
